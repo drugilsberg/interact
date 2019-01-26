@@ -17,8 +17,7 @@ genes = [
 ]
 data_path = 'data/'
 embedding_filepath = os.path.join(data_path, (
-    'kegg_prostate_cancer_abstract-corpus-wnl'
-    '-sw-pubtator-bigram_w_9_size_500_c_50.bin'
+    'prostate_cancer_embedding.bin'
 ))
 # embedding
 embedding_df = read_embedding_df(embedding_filepath)
