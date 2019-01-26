@@ -1,0 +1,9 @@
+venv
+.vscode
+.ipynb*
+__pycache__
+*swp
+*.egg-info
+data/*
+!data/README.md
+*DS_Store*

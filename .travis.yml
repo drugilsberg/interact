@@ -1,0 +1,16 @@
+dist: trusty
+
+sudo: required
+
+language: python
+
+python:
+  - 3.4
+  - 3.5
+  - 3.6
+
+before_script:
+  - pip3 install -e .
+
+script:
+  - python3 -c "import interact"
