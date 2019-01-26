@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/drugilsberg/interact.svg?branch=master)](https://travis-ci.org/drugilsberg/interact)
 # INtERAcT
 
 The `interact` package provide an implementation of INtERAcT (Interaction networks from vector representation of words) together with a selection of different metrics. Additionally, it exposes various utilities parse data from STRING DB, UniProt and files in gmt format.
