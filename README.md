@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/drugilsberg/interact.svg?branch=master)](https://travis-ci.org/drugilsberg/interact)
+[![DOI](https://zenodo.org/badge/167734956.svg)](https://zenodo.org/badge/latestdoi/167734956)
 # INtERAcT
 
 The `interact` package provide an implementation of INtERAcT (Interaction networks from vector representation of words) together with a selection of different metrics. Additionally, it exposes various utilities parse data from STRING DB, UniProt and files in gmt format.
