@@ -3,7 +3,7 @@ import logging
 import numpy as np
 import pandas as pd
 from enum import Enum
-from fastText import load_model as load_fasttext
+from fasttext import load_model as load_fasttext
 
 
 logger = logging.getLogger(__name__)
