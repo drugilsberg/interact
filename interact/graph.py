@@ -4,7 +4,6 @@ import seaborn as sns
 import json
 from matplotlib import colors
 import matplotlib.pyplot as plt
-from networkx.drawing.nx_agraph import graphviz_layout
 from .generic import interactions_to_edges
 
 # seaborn settings
@@ -26,10 +25,6 @@ layout_factory = {
     'shell_layout': nx.shell_layout,
     'spectral_layout': nx.spectral_layout,
     'fruchterman_reingold_layout': nx.fruchterman_reingold_layout,
-    'neato': lambda G: graphviz_layout(
-        G, prog='neato', args='-Goverlap=false'
-    ),
-    'dot': lambda G: graphviz_layout(G, prog='dot')
 }
 
 
