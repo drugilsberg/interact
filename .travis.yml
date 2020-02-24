@@ -1,4 +1,4 @@
-dist: trusty
+dist: xenial
 
 sudo: required
 
@@ -13,4 +13,4 @@ before_script:
 
 script:
   - python3 -c "import interact"
-  - cd examples && python3 generate_interact_network.py
+  - cd examples/prostate && python3 generate_interact_network.py
