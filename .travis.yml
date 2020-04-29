@@ -9,6 +9,7 @@ python:
   - 3.6
 
 before_script:
+  - pip3 install -U pip
   - pip3 install -e .
 
 script:
