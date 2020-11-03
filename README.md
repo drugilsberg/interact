@@ -6,6 +6,21 @@ The `interact` package provide an implementation of INtERAcT (Interaction networ
 
 INtERAcT is also available as a service on [IBM Cloud](https://ibm.biz/interact-aas). For details check the [paper](https://arxiv.org/abs/1801.03011).
 
+If you use INtERAcT in your research, please consider citing:
+
+```bibtex
+@article{manica2019context,
+  title={Context-specific interaction networks from vector representation of words},
+  author={Manica, Matteo and Mathis, Roland and Cadow, Joris and Mart{\'\i}nez, Mar{\'\i}a Rodr{\'\i}guez},
+  journal={Nature Machine Intelligence},
+  volume={1},
+  number={4},
+  pages={181--190},
+  year={2019},
+  publisher={Nature Publishing Group}
+}
+```
+
 ## Installation
 
 ### Setup of the virtual environment
