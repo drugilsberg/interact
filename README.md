@@ -4,7 +4,7 @@
 
 The `interact` package provide an implementation of INtERAcT (Interaction networks from vector representation of words) together with a selection of different metrics. Additionally, it exposes various utilities parse data from STRING DB, UniProt and files in gmt format.
 
-INtERAcT is also available as a service on [IBM Cloud](https://ibm.biz/interact-aas). For details check the [paper](https://arxiv.org/abs/1801.03011).
+For details check the [paper](https://arxiv.org/abs/1801.03011).
 
 If you use INtERAcT in your research, please consider citing:
 
@@ -60,3 +60,8 @@ pip3 install .
 ```
 
 Check the folder `examples` for a quick start on inferring interaction from an embedding using `interact`.
+
+## web service deprecation
+
+The INtERAcT web-service has been deprecated in favour of the python package hosted in this repository.
+Please check the examples to use INtERAcT in your research.
